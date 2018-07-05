@@ -11,13 +11,14 @@ description: 如何成为一名推荐算法工程师详细补充版
 
 -  数学：[微积分](/pages/math.html)，[统计学](/pages/math.html)，[线性代数](/pages/math.html)
 -  周边学科：信息论基础
--  推荐算法： CF，[LR](/pages/lr.md)，SVM，FM，FTRL，GBDT，RF，SVD，RBM，RNN，LSTM，RL
+-  推荐算法： CF，[LR](/pages/lr.html)，[SVD/FM](/pages/svd_fm.html)，[GBDT](/pages/gbdt.html)，RF，SVM，RBM，RNN，LSTM，RL
 -  数据挖掘：分类，聚类，回归，降维，特征选择，模型评价
 
 #### 实现系统检验想法的技能
 
-- 操作系统： Linux
-- 编程语言： Python/R， Java/C++/C，sql，shell
+- 操作系统： Linux命令
+- 编程语言： JAVA，C++，python，sql，shell
+- 代码规范：
 - RPC框架： thrift， Dubbo，gRPC
 - web服务： tornado, django, flask
 - 数据存储： redis, hbase, cassandra, mongodb, mysql, hdfs，hive, kafka, elasticsearch
@@ -27,6 +28,7 @@ description: 如何成为一名推荐算法工程师详细补充版
 - 相似计算： kgraph, annoy，nmslib, GraphCHI, columnSimilarities(spark.RowMatrix)
 - 实时计算： Spark Streaming, Storm，Samza
 
+
 #### 为效果负责的技能
 - 熟悉常见离线效果指标：准确率，召回率，AUC，基尼系数
 - 能够定义产品效果指标：点击率，留存率，转换率，观看完整率
@@ -34,6 +36,6 @@ description: 如何成为一名推荐算法工程师详细补充版
 - 知道常见推荐产品的区别： Feed流推荐，相关推荐，TopN推荐，个性化推送
 
 #### 其他软技能
-- 英文阅读；读顶级会议的论文、一流公司和行业前辈的经典论文和技术博客，在Quora和Stack Overflow上和人交流探讨；
-- 代码阅读；能阅读开源代码，从中学习优秀项目对经典算法的实现；
-- 沟通表达；能够和其他岗位的人员沟通交流，讲明白所负责模块的原理和方法，能听懂非技术人员的要求和思维，能分别真需求和伪需求并且能达成一致。
+- 工作方法
+- 英文阅读：读顶级会议的论文、一流公司和行业前辈的经典论文和技术博客，在Quora和Stack Overflow上和人交流探讨；
+- 沟通表达：能够和其他岗位的人员沟通交流，讲明白所负责模块的原理和方法，能听懂非技术人员的要求和思维，能分别真需求和伪需求并且能达成一致。
