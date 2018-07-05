@@ -9,7 +9,7 @@ description: 如何成为一名推荐系统工程师详细补充版
 
 #### 掌握核心原理的技能
 
--  数学：[微积分]()，统计学，线性代数
+-  数学：[微积分](/pages/math.html)，[统计学](/pages/math.html)，[线性代数](/pages/math.html)
 -  周边学科：信息论基础
 -  推荐算法： CF，LR，SVM，FM，FTRL，GBDT，RF，SVD，RBM，RNN，LSTM，RL
 -  数据挖掘：分类，聚类，回归，降维，特征选择，模型评价
