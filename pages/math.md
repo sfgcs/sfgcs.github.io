@@ -1,10 +1,8 @@
 ---
 layout: page
-title: 数学知识清单
+title: 数学知识
 description:
 ---
-
-数学知识
 
 #### 微积分
 

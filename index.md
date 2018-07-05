@@ -1,17 +1,17 @@
 ---
 layout: page
-title: 推荐系统工程师知识清单
+title: 推荐算法工程师知识清单
 tagline:
-description: 如何成为一名推荐系统工程师详细补充版
+description: 如何成为一名推荐算法工程师详细补充版
 ---
 
-感觉[《如何成为一名推荐系统工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其列出的目录，进行知识的沉淀，并对其进行丰富～
+感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其列出的目录，进行知识的沉淀，并对其进行丰富～
 
 #### 掌握核心原理的技能
 
 -  数学：[微积分](/pages/math.html)，[统计学](/pages/math.html)，[线性代数](/pages/math.html)
 -  周边学科：信息论基础
--  推荐算法： CF，LR，SVM，FM，FTRL，GBDT，RF，SVD，RBM，RNN，LSTM，RL
+-  推荐算法： CF，[LR](/pages/lr.md)，SVM，FM，FTRL，GBDT，RF，SVD，RBM，RNN，LSTM，RL
 -  数据挖掘：分类，聚类，回归，降维，特征选择，模型评价
 
 #### 实现系统检验想法的技能
