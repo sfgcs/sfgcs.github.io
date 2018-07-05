@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 推荐算法工程师知识清单
+title: 目录
 tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
