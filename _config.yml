@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : 知识清单
+title : 人人都是算法工程师
 author :
   name : rrdssfgcs
   email : rrdssfgcs@163.com
@@ -51,7 +51,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
-  BASE_PATH : https://kbroman.org/simple_site
+  BASE_PATH : https://rrdssfgcs.github.io/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
