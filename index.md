@@ -1,11 +1,11 @@
 ---
 layout: page
 title: 目录
-tagline:
+tagline: 
 description: 如何成为一名推荐算法工程师详细补充版
 ---
 
-感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其列出的目录，进行知识的沉淀，并对其进行丰富～
+感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的知识目录，并对其进行细节丰富，供您参考～
 
 #### 掌握核心原理的技能
 
