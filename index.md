@@ -1,11 +1,13 @@
 ---
 layout: page
 title: 目录
-tagline: 
+tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
 
 感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的知识目录，并对其进行细节丰富，供您参考～
+
+本目录的主要形式是根据如下列出的大知识点下钻，我们列出推荐的资料和该知识点相关的问题，每个问题都会是知乎上的
 
 #### 掌握核心原理的技能
 
@@ -13,6 +15,7 @@ description: 如何成为一名推荐算法工程师详细补充版
 -  周边学科：信息论基础
 -  推荐算法： CF，[LR](/pages/lr.html)，[SVD/FM](/pages/svd_fm.html)，[GBDT](/pages/gbdt.html)，RF，SVM，RBM，RNN，LSTM，RL
 -  数据挖掘：分类，聚类，回归，降维，特征选择，模型评价
+-  文本处理： Word2vec，FastText
 
 #### 实现系统检验想法的技能
 
@@ -23,7 +26,6 @@ description: 如何成为一名推荐算法工程师详细补充版
 - web服务： tornado, django, flask
 - 数据存储： redis, hbase, cassandra, mongodb, mysql, hdfs，hive, kafka, elasticsearch
 - 机器学习/深度学习： Spark MLib，GraphLab/GraphCHI，Angel，MXNet，TensorFlow，Caffe, Xgboost，VW，libxxx
-- 文本处理： Word2vec，Fasttext，Gensim，NLTK
 - 矩阵分解： Spark ALS，GraphCHI，implicit，qmf，libfm
 - 相似计算： kgraph, annoy，nmslib, GraphCHI, columnSimilarities(spark.RowMatrix)
 - 实时计算： Spark Streaming, Storm，Samza
