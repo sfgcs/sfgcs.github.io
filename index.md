@@ -5,14 +5,15 @@ tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
 
-此网站github在此[https://github.com/rrdssfgcs/rrdssfgcs.github.io]
+此网站github地址[在此](https://github.com/rrdssfgcs/rrdssfgcs.github.io)，欢迎大家协作~
 
 感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的知识目录，并对其进行细节丰富，供您参考～
 
 本目录的主要形式为
 - 先按如下列出一个推荐算法工程师需要掌握的大知识点
 - 根据这些列出的大知识点下钻，推荐阅读资料，并列出相关问题
-- 每个问题都会是知乎上的一个问题，在这个问题下，我们会写出自己的答案，也方便大家给我们纠错
+- 每个问题都会是知乎上的一个问题，在对应的知乎问题下，我们会写出自己的答案，大家也可以一起讨论
+
 
 #### 掌握核心原理的技能
 
