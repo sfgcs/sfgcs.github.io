@@ -5,7 +5,7 @@ tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
 
-此网站github地址[在此](https://github.com/rrdssfgcs/rrdssfgcs.github.io)，欢迎大家协作~
+此网站github地址[在此](https://github.com/rrdssfgcs/rrdssfgcs.github.io)，欢迎大家协作~想知道作者是谁，点[这里](https://zhuanlan.zhihu.com/p/27515227)
 
 感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的**知识清单**，供您参考～
 
