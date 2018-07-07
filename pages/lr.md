@@ -14,6 +14,10 @@ description:
 
 1. logistics回归到底是什么？
 
-2. [logistics回归为什么选用sigmoid函数作为归一化函数？](https://www.zhihu.com/question/284138596)
+2. [为什么 LR 模型要使用 sigmoid 函数，背后的数学原理是什么？](https://www.zhihu.com/question/35322351)
 
 3. logistics回归的优化算法有哪些？请简要对比下说明下优缺点。
+
+4. odds是什么？和logistics回归有什么关系？
+
+5. 正态分布和logistics回归有什么关系？
