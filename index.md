@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 目录
+title: 推荐算法工程师知识清单
 tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
@@ -27,11 +27,9 @@ description: 如何成为一名推荐算法工程师详细补充版
 
 - 操作系统： Linux命令
 - 编程语言： JAVA，C++，python，sql，shell
-- RPC框架： thrift， Dubbo，gRPC
-- 服务治理： tornado, django, flask
-- 数据存储： redis, hbase, cassandra, mongodb, mysql, hdfs，hive, kafka, elasticsearch
-- 机器学习/深度学习框架： Spark MLib，GraphLab/GraphCHI，Angel，MXNet，TensorFlow，Caffe, Xgboost，VW，libxxx
-- 大数据：hadoop/spark
+- 接口服务:RPC框架，服务治理
+- 机器学习/深度学习框架： sklearn，Xgboost/lightGBM，Spark MLib，TensorFlow
+- 大数据：hadoop/spark，数据存储
 
 #### 为效果负责的技能
 - 熟悉常见离线效果指标：模型评价
