@@ -29,7 +29,7 @@ description: 如何成为一名推荐算法工程师详细补充版
 - 编程语言： JAVA，C++，python，sql，shell
 - 系统工程： 推荐架构，RPC框架，服务治理
 - 机器学习/深度学习框架： sklearn，Xgboost/lightGBM，Spark MLib，TensorFlow
-- 大数据：hadoop/spark，数据存储
+- 大数据：hadoop/spark，[数据存储](/pages/data_store.html)
 
 #### 为效果负责的技能
 - 熟悉常见离线效果指标：模型评价
