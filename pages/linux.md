@@ -35,7 +35,6 @@ description:
   * head
     * -n<数字>：指定显示头部内容的行数；
   * sed
-    * http://blog.jobbole.com/109088/
   * more
   * less
     * b 向后翻一页
