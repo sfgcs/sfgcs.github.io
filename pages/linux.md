@@ -1,6 +1,6 @@
 ---
 layout: page
-title: redis
+title: linux
 description:
 ---
 
@@ -12,7 +12,7 @@ description:
     * -l 详细信息
   * cd
     * ~ 主目录
-    * - 上一个路径
+    * \- 上一个路径
   * rm
     * -r 递归处理
     * -f 强制删除文件或目录
@@ -50,19 +50,26 @@ description:
 * 系统工具类
   * df
   * du
-    * -h
+    * -h 
   * ps
+    * aux
+    * -ef
   * kill
+    * -9 强制杀死
   * whereis
   * which
-  * cal
   * top
   * crontab
+    * -e 编辑
+    * -r 删除
+    * -l 显示
   * chmod
   * chown
   * mail
+    * -s 添加主题
   * echo
   * alias
+    * -p 列出所有
   
 2. shell脚本中单引号和双引号有什么区别？
   
