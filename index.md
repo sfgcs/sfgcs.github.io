@@ -5,9 +5,7 @@ tagline:
 description: 如何成为一名推荐算法工程师详细补充版
 ---
 
-此网站github地址[在此](https://github.com/rrdssfgcs/rrdssfgcs.github.io)，欢迎大家协作~ 想知道作者是谁，点[这里](https://zhuanlan.zhihu.com/p/27515227)~
-
-感觉[《如何成为一名推荐算法工程师》](https://mp.weixin.qq.com/s?src=11&timestamp=1530774550&ver=979&signature=fsAx3LeUm6xx-urvKqA-PGYR9iDWvhphjvCAIYwyCSVkq4tjPLuQmkeVyjshh*yTlovHj4bpOCoNADDfhtqwRHp9JyWHmA8-s58r5jni2B6NCK1mP9H*4rd8NBqXQp3K&new=1)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的**知识清单**，供您参考～
+感觉[《如何成为一名推荐算法工程师》](https://weixin.sogou.com/weixin?type=2&s_from=input&query=%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%80%E5%90%8D%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%B4%E6%9D%A1&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=18274&sst0=1545630897562&lkt=8%2C1545630880165%2C1545630897458)总结的挺不错的，现在参照其结构，列出推荐算法工程师应该掌握的**知识清单**，供您参考～
 
 
 本清单的主要形式为
