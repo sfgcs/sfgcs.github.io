@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fm
+title: FM
 description:
 ---
 
@@ -8,8 +8,9 @@ description:
 
 #### 知识
 
-- fm到底是什么，请推导下fm
-- ffm是什么,deepFM是什么,xdeepFM是什么
+- FM到底是什么，请推导下FM
+- FFM/DeepFM/xDeepFM是什么
+- FM与LR/SVD的关系
 
 #### 工具
 
@@ -17,7 +18,7 @@ description:
 
 #### 逻辑
 
-- fm模型有哪些优点和缺点
+- FM模型有哪些优点和缺点
 
 #### 业务
 
