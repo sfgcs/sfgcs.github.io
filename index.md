@@ -11,12 +11,11 @@ description: 如何成为一名推荐算法工程师详细补充版
 本清单的主要形式为
 - 先列出一个推荐算法工程师需要掌握的大知识点，作为目录
 - 在这个目录链接的子页面下，推荐阅读资料，列出相关问题
-- 在对应的问题下，我们会链接知乎上自己写出的答案，大家也可以一起讨论
 
 
 #### 掌握核心原理的技能
 
--  基础学科：[微积分](/pages/math.html)，[统计学](/pages/math.html)，[线性代数](/pages/math.html)，[信息论基础](/pages/math.html)
+-  基础学科：[线性代数,微积分,统计学,信息论](/pages/math.html)
 -  推荐算法：CF，[LR](/pages/lr.html)，[SVD/FM](/pages/svd_fm.html)，[GBDT](/pages/gbdt.html)，[深度学习](/pages/dl.html)，强化学习
 -  机器学习：优化算法，online learning，过拟合，特征选择，模型评价
 -  文本处理：Word2vec，FastText
