@@ -14,6 +14,7 @@ description:
 - odds和lr有什么关系
 - 正态分布和lr有什么关系
 - lr如何用于多分类
+- [l1 相比于 l2 为什么容易获得稀疏解](https://www.zhihu.com/question/37096933)
 
 #### 工具
 
