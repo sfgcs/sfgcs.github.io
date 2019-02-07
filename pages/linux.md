@@ -13,5 +13,6 @@ description:
 * lsof -i:22 查看 22 端口现在运行的程序
   lsof -c abc 显示 abc 进程现在打开的文件
   lsof -p 12 看进程号为 12 的进程打开了哪些文件
-  
+* echo "str" | base64
+* jps JDK 1.5提供的一个显示当前所有java进程pid的命令，简单实用，非常适合在linux/unix平台上简单察看当前java进程的一些简单情况
 
