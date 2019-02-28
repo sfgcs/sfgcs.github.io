@@ -20,7 +20,7 @@
 #### 实现系统检验想法的技能
 
 - 操作系统： Linux命令
-- 编程语言： JAVA，C++，python，sql，shell
+- 编程语言： [JAVA](/pages/java.html)，[C++](/pages/c++.html)，[python](/pages/python.html)，sql，shell
 - 系统工程： 推荐架构，RPC框架，服务治理
 - 机器学习/深度学习框架： sklearn，Xgboost/lightGBM，Spark MLib，TensorFlow
 - 大数据：hadoop/spark，数据存储
