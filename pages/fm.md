@@ -8,7 +8,7 @@ description:
 
 #### 知识
 
-- FM到底是什么，请推导下FM
+- [FM到底是什么，请推导下FM](http://castellanzhang.github.io/2016/10/16/fm_ftrl_softmax/)
 - FFM/DeepFM/xDeepFM是什么
 - FM与LR/SVD的关系
 
