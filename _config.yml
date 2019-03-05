@@ -10,13 +10,12 @@ highlighter: rouge
 #
 title : 
 author :
-  name : rrdssfgcs
-  email : rrdssfgcs@163.com
-  github : https://github.com/rrdssfgcs
-  zhihu : https://zhuanlan.zhihu.com/rrdssfgcs
+  name : sfgcs
+  email : 
+  github : https://github.com/sfgcs
 
 # NOTE: Replacing this next line with your own URL
-production_url : https://rrdssfgcs.github.io/
+production_url : https://sfgcs.github.io/
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
