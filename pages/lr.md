@@ -13,10 +13,10 @@ description:
 - [为什么lr模型要使用 sigmoid 函数，背后的数学原理是什么](https://www.zhihu.com/question/35322351)
 - [“从贝叶斯估计的角度来看，正则化项对应于模型的先验概率”，这句话怎么理解](https://blog.csdn.net/haolexiao/article/details/70243292)
 - odds和lr有什么关系
-- 正态分布和lr有什么关系
 - [广义线性模型与lr的关系](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
 - lr如何用于多分类
 - [l1 相比于 l2 为什么容易获得稀疏解](https://www.zhihu.com/question/37096933)
+- [L1、L2正则化是怎么来的](https://blog.csdn.net/m0_38045485/article/details/82147817)
 
 #### 工具
 
