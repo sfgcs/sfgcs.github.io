@@ -11,6 +11,7 @@ description:
 - lr到底是什么，请推导下lr
 - lr的损失函数是什么
 - [为什么lr模型要使用 sigmoid 函数，背后的数学原理是什么](https://www.zhihu.com/question/35322351)
+- [“从贝叶斯估计的角度来看，正则化项对应于模型的先验概率”，这句话怎么理解](https://blog.csdn.net/haolexiao/article/details/70243292)
 - odds和lr有什么关系
 - 正态分布和lr有什么关系
 - [广义线性模型与lr的关系](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
