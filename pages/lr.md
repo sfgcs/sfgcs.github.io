@@ -37,3 +37,4 @@ description:
 - [从Odds角度理解Logistic Regression模型的参数](http://vividfree.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2015/12/13/understanding-logistic-regression-using-odds)
 - [在线最优化求解](http://vividfree.github.io/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/2015/12/13/understanding-logistic-regression-using-odds)
 - [逻辑回归:从入门到精通](https://www.tianyancha.com/research/LR_intro.pdf)
+- [CS229 Lecture notes](http://cs229.stanford.edu/notes/cs229-notes1.pdf)
