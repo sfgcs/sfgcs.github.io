@@ -4,6 +4,8 @@ title: logistics回归
 description:
 ---
 
+![alt text](http://assets.processon.com/chart_image/5c7f2712e4b09a16b997460d.png "title")
+
 ### 问题集
 
 #### 知识
