@@ -4,6 +4,9 @@ title: 深度学习
 description:
 ---
 
+![alt text](http://assets.processon.com/chart_image/5c7f3e26e4b02ce2e8836be8.png "deep")
+
+
 #### 知识
 
 - 请推导下反向传播
