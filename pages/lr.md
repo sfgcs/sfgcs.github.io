@@ -3,10 +3,10 @@ layout: page
 title: logistics回归
 description:
 ---
+#### 关系图
 
-![alt text](http://assets.processon.com/chart_image/5c7f2712e4b09a16b997460d.png "title")
+![alt text](http://assets.processon.com/chart_image/5c7f3e28e4b0ed6b42f618bc.png "lr")
 
-### 问题集
 
 #### 知识
 
