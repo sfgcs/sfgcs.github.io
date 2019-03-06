@@ -6,7 +6,8 @@ description:
 
 #### 关系图
 
-![![alt text](http://assets.processon.com/chart_image/5c7f684be4b02b2ce48de487.png)](https://www.processon.com/view/link/5c7f684ce4b0afc744072710)
+![alt text](http://assets.processon.com/chart_image/5c7f684be4b02b2ce48de487.png)
+[点击看大图](https://www.processon.com/view/link/5c7f684ce4b0afc744072710)
 
 #### 知识
 
