@@ -4,7 +4,9 @@ title: 树模型
 description:
 ---
 
-### 问题集
+#### 关系图([大图链接](https://www.processon.com/view/link/5badfdbee4b0d4d65c1b04cb))
+
+![alt text](http://assets.processon.com/chart_image/5badfdbee4b06fc64b095af0.png "gbdt")
 
 #### 知识
 
