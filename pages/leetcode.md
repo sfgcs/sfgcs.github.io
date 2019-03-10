@@ -202,3 +202,20 @@ vector<int> PrintFromTopToBottom(TreeNode* root) {
    return result;
 }
 ```
+#### 性质判断
+##### [对称](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+```
+bool isSymmetrical(TreeNode* pRoot)
+{
+   if (pRoot==NULL) return true;
+   return isSymmetrical(pRoot->left,pRoot->right);
+}
+
+bool isSymmetrical(TreeNode* left,TreeNode* right)
+{
+   if (left==NULL&&right==NULL) return true;
+   if (left==NULL||right==NULL) return false;
+   if (left->val!=right->val) return false;
+   return isSymmetrical(left->left,right->right)&&isSymmetrical(left->right,right->left);
+}
+```
