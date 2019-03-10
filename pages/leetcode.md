@@ -274,3 +274,12 @@ bool isValidBST(TreeNode* root) {
    return true;     
 }
 ```
+#### 深度
+##### [最大深度]
+```
+int TreeDepth(TreeNode* pRoot)
+{
+  if (pRoot == NULL) return 0;
+  return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
+}
+```
