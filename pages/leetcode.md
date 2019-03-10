@@ -290,6 +290,59 @@ int TreeDepth(TreeNode* pRoot)
   return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
 }
 ```
+#### BST
+##### [BST公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
+```
+TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+   if (root ==NULL||p==NULL||q==NULL) return root;
+   TreeNode* visiting = root;
+   while(visiting!=NULL){
+      if (visiting->val>p->val&&visiting->val>q->val)
+      {
+         visiting = visiting->left; 
+      }else if(visiting->val<p->val&&visiting->val<q->val){
+          visiting = visiting->right;
+      }else{
+          return visiting;
+      }
+   }
+   return visiting;
+ }
+```
+#### 转双向链表
+```
+TreeNode* Convert(TreeNode* pRootOfTree)
+{
+   if (pRootOfTree==NULL) return pRootOfTree;
+   stack<TreeNode*> visited;
+   TreeNode* visiting = pRootOfTree;
+   TreeNode* last = NULL;
+   TreeNode* head = NULL;
+   while(visiting!=NULL||!visited.empty())
+   {
+      if (visiting!=NULL)
+      {
+          visited.push(visiting);
+          visiting = visiting->left;
+      }else{
+          visiting = visited.top();
+          if(last!=NULL)
+          {
+              last->right=visiting;
+              visiting->left=last;
+              last = visiting;
+
+          }else{
+              last = visiting;
+              head = visiting;
+          }
+          visited.pop();
+          visiting = visiting->right;
+      }  
+   }
+   return head;
+}
+```
 #### 深度
 ##### 求最大深度
 ```
