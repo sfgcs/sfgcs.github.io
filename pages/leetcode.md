@@ -112,7 +112,7 @@ vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
 ```
 ### 树
 #### [遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-#####前中后
+##### 前中后
 递归
 ```
 void preorder(TreeNode* root,vector<int> &result)
@@ -162,4 +162,28 @@ vector<int> preorderTraversal(TreeNode* root) {
    return result;
 }
 ```
-#####层序
+##### 层序
+```
+vector<int> PrintFromTopToBottom(TreeNode* root) {
+   queue<TreeNode*> q;
+   vector<int> result;
+   if (root == NULL)
+   {
+      return result;
+   }
+   q.push(root);
+   while(!q.empty())
+   {
+      TreeNode* node = q.front();
+      if(node->left!=NULL){
+         q.push(node->left);
+      }
+      if(node->right!=NULL){
+         q.push(node->right);
+      }
+      result.push_back(node->val);
+      q.pop();
+   }
+   return result;
+}
+```
