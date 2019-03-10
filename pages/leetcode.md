@@ -26,9 +26,9 @@ int binarySearch(vector<int> &nums, int target) {
 #### 最小的K个数(快排)
 ```
 int partition(vector<int> &input,int l,int r){
-    int p = input[l];
+    int p = input[l]; // 最左边当成轴
     while(l<r){
-        while(l<r&&input[r]>=p){
+        while(l<r&&input[r]>=p){ //左右不相遇
             r--;
         }
         swap(input[l],input[r]);
@@ -64,6 +64,39 @@ vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
     {
         result.push_back(input[i]);
     }  
+    return result;
+}
+```
+附堆排序代码
+```
+void adjustHeap(vector<int> &input,int i,int length){
+    int child = i*2+1;
+    if(child<length)
+    {
+        if (child+1<length&&input[child+1]<input[child])
+        {
+            child++;
+        }
+        if (input[child]<input[i])
+        {
+            swap(input[i],input[child]);
+            adjustHeap(input,child,length);//递归调整
+        }
+    }
+}
+vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
+    vector<int> result;
+    if(input.empty()|| k<=0 || k > input.size()) return result;
+    for (int i = input.size()/2 -1;i >= 0;i--)
+    {
+        adjustHeap(input,i,input.size()-1);
+    }
+    for (int i = 0; i < k; ++i)
+    {
+        result.push_back(input[0]);
+        swap(input[0],input[input.size()-i-1]);
+        adjustHeap(input,0,input.size()-1-i);
+    }
     return result;
 }
 ```
