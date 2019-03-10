@@ -219,3 +219,24 @@ bool isSymmetrical(TreeNode* left,TreeNode* right)
    return isSymmetrical(left->left,right->right)&&isSymmetrical(left->right,right->left);
 }
 ```
+##### [子树](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+```
+bool isSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
+{
+    if (pRoot2==NULL) return true;
+    if (pRoot1==NULL) return false;
+    if (pRoot1->val!=pRoot2->val) return false;
+    return isSubtree(pRoot1->left,pRoot2->left)&&isSubtree(pRoot1->right,pRoot2->right);
+}
+bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
+{
+    if (pRoot1==NULL||pRoot2==NULL) return false;
+    if (pRoot1->val==pRoot2->val)
+    {
+        return isSubtree(pRoot1,pRoot2)
+            ||HasSubtree(pRoot1->left, pRoot2)
+            ||HasSubtree(pRoot1->right, pRoot2);
+    }
+    return false;
+}
+```
