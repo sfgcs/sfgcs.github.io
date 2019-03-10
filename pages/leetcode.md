@@ -23,7 +23,7 @@ int binarySearch(vector<int> &nums, int target) {
     return -1;
 }
 ```
-#### 最小的K个数(快排)
+#### [最小的K个数(快排)](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&tqId=11182&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 ```
 int partition(vector<int> &input,int l,int r){
     int p = input[l]; // 最左边当成轴
