@@ -274,6 +274,22 @@ bool isValidBST(TreeNode* root) {
    return true;     
 }
 ```
+##### AVL
+```
+// 可剪枝https://www.nowcoder.com/questionTerminal/8b3b95850edb4115918ecebdf1b4d222
+bool IsBalanced_Solution(TreeNode* pRoot) {
+  if (pRoot==NULL) return true;
+  int left = TreeDepth(pRoot->left);
+  int right = TreeDepth(pRoot->right);
+  if (left-right>1||right-left>1) return false;
+  return IsBalanced_Solution(pRoot->left)&&IsBalanced_Solution(pRoot->right);
+}
+int TreeDepth(TreeNode* pRoot)
+{
+  if (pRoot == NULL) return 0;
+  return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
+}
+```
 #### 深度
 ##### 求最大深度
 ```
