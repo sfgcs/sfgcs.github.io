@@ -243,34 +243,34 @@ bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
 ##### [BST判断](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 ```
 bool isValidBST(TreeNode* root) {
-if (root==NULL) return true;
+   if (root==NULL) return true;
 
-stack<TreeNode*> visited;
-TreeNode* visiting = root;
-TreeNode* last = NULL;
-while(visiting!=NULL||!visited.empty())
-{
-   if (visiting!=NULL)
+   stack<TreeNode*> visited;
+   TreeNode* visiting = root;
+   TreeNode* last = NULL;
+   while(visiting!=NULL||!visited.empty())
    {
-       visited.push(visiting);
-       visiting = visiting->left;
-   }else{
-       visiting = visited.top();
-       if(last!=NULL)
-       {
-         if (visiting->val<=last->val)
-         {
-             return false;
-         }else{
-             last = visiting;
-         }
-       }else{
-         last = visiting;
-       }
-       visited.pop();
-       visiting = visiting->right;
-   }  
-}
-return true;     
+      if (visiting!=NULL)
+      {
+          visited.push(visiting);
+          visiting = visiting->left;
+      }else{
+          visiting = visited.top();
+          if(last!=NULL)
+          {
+            if (visiting->val<=last->val)
+            {
+                return false;
+            }else{
+                last = visiting;
+            }
+          }else{
+            last = visiting;
+          }
+          visited.pop();
+          visiting = visiting->right;
+      }  
+   }
+   return true;     
 }
 ```
