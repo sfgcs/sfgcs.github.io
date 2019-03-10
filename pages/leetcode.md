@@ -15,7 +15,7 @@ description:
       * [对称](#对称)
       * [子树](#子树)
       * [BST判断](#BST判断)
-      * [AVL](#AVL)
+      * [AVL判断](#AVL判断)
    * [BST](#BST)
       * [BST公共祖先](#BST公共祖先)
       * [转双向链表](#转双向链表)
@@ -274,7 +274,7 @@ bool isValidBST(TreeNode* root) {
    return true;     
 }
 ```
-##### AVL
+##### [AVL判断](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=13&tqId=11192&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 ```
 // 可剪枝https://www.nowcoder.com/questionTerminal/8b3b95850edb4115918ecebdf1b4d222
 bool IsBalanced_Solution(TreeNode* pRoot) {
