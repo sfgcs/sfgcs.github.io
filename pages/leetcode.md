@@ -14,7 +14,7 @@ description:
    * [性质判断](#性质判断)
       * [对称](#对称)
       * [子树](#子树)
-      * [BST](#BST)
+      * [BST判断](#BST判断)
       * [AVL](#AVL)
    * [BST](#BST)
       * [BST公共祖先](#BST公共祖先)
@@ -238,5 +238,39 @@ bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
             ||HasSubtree(pRoot1->right, pRoot2);
     }
     return false;
+}
+```
+##### [BST判断](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&tqId=11170&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+```
+bool isValidBST(TreeNode* root) {
+if (root==NULL) return true;
+
+stack<TreeNode*> visited;
+TreeNode* visiting = root;
+TreeNode* last = NULL;
+while(visiting!=NULL||!visited.empty())
+{
+   if (visiting!=NULL)
+   {
+       visited.push(visiting);
+       visiting = visiting->left;
+   }else{
+       visiting = visited.top();
+       if(last!=NULL)
+       {
+         if (visiting->val<=last->val)
+         {
+             return false;
+         }else{
+             last = visiting;
+         }
+       }else{
+         last = visiting;
+       }
+       visited.pop();
+       visiting = visiting->right;
+   }  
+}
+return true;     
 }
 ```
