@@ -275,7 +275,7 @@ bool isValidBST(TreeNode* root) {
 }
 ```
 #### 深度
-##### [最大深度]
+##### 求最大深度
 ```
 int TreeDepth(TreeNode* pRoot)
 {
