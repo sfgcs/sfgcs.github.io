@@ -9,6 +9,8 @@ description:
     * [最小的K个数](#最小的K个数)
 * [树](#树)
     * [遍历](#遍历)
+      * [前中后](#前中后)
+      * [层序](#层序)
 
 ### 分治法
 #### 二分查找
@@ -110,7 +112,8 @@ vector<int> GetLeastNumbers_Solution(vector<int> input, int k) {
 ```
 ### 树
 #### [遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-前中后递归
+#####前中后
+递归
 ```
 void preorder(TreeNode* root,vector<int> &result)
 {
@@ -133,7 +136,7 @@ vector<int> preorderTraversal(TreeNode* root) {
    return result;
 }
 ```
-前中后非递归(后序反转实现)
+非递归(后序反转实现)
 ```
 vector<int> preorderTraversal(TreeNode* root) {
    vector<int> result;
@@ -159,3 +162,4 @@ vector<int> preorderTraversal(TreeNode* root) {
    return result;
 }
 ```
+#####层序
