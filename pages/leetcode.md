@@ -26,6 +26,8 @@ description:
       * [和为某值的路径](#和为某值的路径)
       * [最大距离](#和为某值的路径)
       * [一般公共祖先](#一般公共祖先)
+   * [根据遍历结果反推](#根据遍历结果反推)
+      * [重建二叉树](#重建二叉树)
 
 ### 分治法
 #### 二分查找
@@ -351,4 +353,44 @@ int TreeDepth(TreeNode* pRoot)
   if (pRoot == NULL) return 0;
   return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
 }
+```
+#### 根据遍历结果反推
+##### [重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+```
+TreeNode* reConstruct(vector<int> pre,vector<int> in,int ps,int pe,int is,int ie) {
+   //pre {1,2,4,7,3,5,6,8}
+   //in {4,7,2,1,5,3,8,6}
+   if (ps>pe||is>ie)
+   {
+      return NULL;
+   }
+   struct TreeNode* root = new TreeNode(pre[ps]);
+   if (ps==pe||is==ie)
+   {
+      root->right = NULL;
+      root->left = NULL;
+   }else{
+      int i = is; //找到对应节点，递归
+      for (; i <= ie; ++i)
+      {
+         if (in[i]==root->val)
+         {
+            break;
+         }
+      }
+      root->left = reConstruct(pre,in,ps+1,ps+i-is,is,i-1);
+      root->right = reConstruct(pre,in,ps+i-is+1,pe,i+1,ie);
+   }
+   return root;
+ }
+
+TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> in) {
+   if (pre.empty()||in.empty())
+   {
+      return NULL;
+   }
+   struct TreeNode* root;
+   root = reConstruct(pre,in,0,pre.size()-1,0,in.size()-1);
+   return root;
+ }
 ```
