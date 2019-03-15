@@ -19,7 +19,7 @@ description: 如何成为一名推荐算法工程师详细补充版
 
 #### 落地
 
-- 上线过程：数据清洗，特征工程，模型训练，在线serving(/pages/serving.html)
+- 上线过程：数据清洗，特征工程，模型训练，[在线serving](/pages/serving.html)
 - 系统工程：[推荐工程架构](/pages/arch.html)
 - 大数据：[Spark](/pages/spark.html)，[数据存储](/pages/data_store.html)
 - 编程语言：[JAVA](/pages/java.html)，[C++](/pages/c++.html)，[python](/pages/python.html)，sql，[shell](/pages/linux.html)
