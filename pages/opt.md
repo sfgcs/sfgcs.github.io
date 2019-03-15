@@ -10,10 +10,10 @@ description:
 
 #### 知识
 
-- 梯度下降是什么
-- 牛顿法/DFP/BFGS/L-BFGS/OWL-QN算法是什么
-- TG/L1-FOBOS/L1-RDA/FTRL算法是什么
-- Momentum/Nesterov/SVRG/Adagrad/Adadelta/RMSprop/Adam/Downpour SGD/Hogwild!算法是什么
+- [SGD为什么会收敛TODO](https://zhpmatrix.github.io/2017/04/06/regret-bound-for-sgd/)
+- FTRL
+  - [伪代码及优化](http://www.cnblogs.com/EE-NovRain/p/3810737.html)
+  - [FTRL和SGD的关系](https://www.zhihu.com/question/266462198/answer/309780073)
 
 #### 工具
 
