@@ -30,3 +30,5 @@ description:
 
 ### 推荐阅读
 - [GBDT详解上 + 下 + 后补](http://www.flickering.cn/machine_learning/2016/08/gbdt%E8%AF%A6%E8%A7%A3%E4%B8%8A-%E7%90%86%E8%AE%BA/)
+- [XGboost核心源码阅读](http://mlnote.com/2016/10/29/xgboost-code-review-with-paper/)
+
