@@ -179,30 +179,35 @@ vector<int> preorderTraversal(TreeNode* root) {
    return result;
 }
 ```
-##### 层序
+##### [层序](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 ```
-vector<int> PrintFromTopToBottom(TreeNode* root) {
-   queue<TreeNode*> q;
-   vector<int> result;
-   if (root == NULL)
-   {
-      return result;
-   }
-   q.push(root);
-   while(!q.empty())
-   {
-      TreeNode* node = q.front();
-      if(node->left!=NULL){
-         q.push(node->left);
-      }
-      if(node->right!=NULL){
-         q.push(node->right);
-      }
-      result.push_back(node->val);
-      q.pop();
-   }
-   return result;
-}
+ vector<vector<int>> levelOrder(TreeNode* root) {
+     vector<vector<int>> result;
+     if (root==NULL) return result;
+     queue<TreeNode*> q;
+     TreeNode* visiting = root;
+     q.push(visiting);
+     int level = 0;
+     while(!q.empty())
+     {
+         int size = q.size();
+         result.push_back(vector<int>());
+         while(size!=0){
+             if(visiting->left!=NULL){
+                 q.push(visiting->left);
+             }
+             if(visiting->right!=NULL){
+                 q.push(visiting->right);
+             }
+             q.pop();
+             result[level].push_back(visiting->val);
+             visiting = q.front();
+             size--;
+         }
+         level++;
+     }
+     return result;
+ }
 ```
 #### 性质判断
 ##### [对称](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?tpId=13&tqId=11211&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
