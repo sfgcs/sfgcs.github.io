@@ -24,7 +24,8 @@ description:
       * [求最大深度](#求最大深度)
    * [路径](#路径)
       * [和为某值的路径](#和为某值的路径)
-      * [最大距离](#和为某值的路径)
+      * [所有路径总和](#所有路径总和)
+      * [最大距离](#最大距离)
       * [一般公共祖先](#一般公共祖先)
    * [根据遍历结果反推](#根据遍历结果反推)
       * [重建二叉树](#重建二叉树)
@@ -357,6 +358,30 @@ int TreeDepth(TreeNode* pRoot)
 {
   if (pRoot == NULL) return 0;
   return max(1+TreeDepth(pRoot->left),1+TreeDepth(pRoot->right));
+}
+```
+#### 路径
+##### [所有路径总和](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+```
+int sumNumbers(TreeNode* root) {
+  int totalSum = 0;
+  if (root!=NULL) getSum(root,0,totalSum);
+  return totalSum;
+}
+
+void getSum(TreeNode* root,int curSum,int &totalSum)
+{
+  if (root->left == NULL && root->right == NULL)
+  {
+      curSum = curSum*10+root->val;//里边的结点
+      totalSum += curSum;
+      curSum = curSum - root->val;
+      curSum = curSum/10;
+      return ;
+  }
+  if (root->left != NULL) getSum(root->left,curSum*10+root->val,totalSum);//外边的结点
+  if (root->right != NULL) getSum(root->right,curSum*10+root->val,totalSum);
+
 }
 ```
 #### 根据遍历结果反推
