@@ -362,40 +362,20 @@ int TreeDepth(TreeNode* pRoot)
 #### 根据遍历结果反推
 ##### [重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 ```
-TreeNode* reConstruct(vector<int> pre,vector<int> in,int ps,int pe,int is,int ie) {
-   //pre {1,2,4,7,3,5,6,8}
-   //in {4,7,2,1,5,3,8,6}
-   if (ps>pe||is>ie)
-   {
-      return NULL;
-   }
-   struct TreeNode* root = new TreeNode(pre[ps]);
-   if (ps==pe||is==ie)
-   {
-      root->right = NULL;
-      root->left = NULL;
-   }else{
-      int i = is; //找到对应节点，递归
-      for (; i <= ie; ++i)
-      {
-         if (in[i]==root->val)
-         {
-            break;
-         }
-      }
-      root->left = reConstruct(pre,in,ps+1,ps+i-is,is,i-1);
-      root->right = reConstruct(pre,in,ps+i-is+1,pe,i+1,ie);
-   }
-   return root;
- }
+TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+  int size = preorder.size();
+  return build(preorder,inorder,0,size-1,0,size-1);
+}
 
-TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> in) {
-   if (pre.empty()||in.empty())
-   {
-      return NULL;
-   }
-   struct TreeNode* root;
-   root = reConstruct(pre,in,0,pre.size()-1,0,in.size()-1);
-   return root;
- }
+TreeNode* build(vector<int>& preorder, vector<int>& inorder,int ps,int pe,int is,int ie){
+  if (ps>pe||is>ie) return NULL;
+  TreeNode* root = new TreeNode(preorder[ps]);
+  for (int i = is;i<=ie;i++){
+      if(inorder[i]==root->val){
+          root->left = build(preorder,inorder,ps+1,ps+i-is,is,i-1);
+          root->right = build(preorder,inorder,ps+i-is+1,pe,i+1,ie);
+      }
+  }
+  return root;
+}
 ```
